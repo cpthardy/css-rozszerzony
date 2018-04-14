@@ -10,6 +10,8 @@ option {
     background-color: #2b4a64;
     border: 1px solid #213850;
     color: #fff;
+    display: block;
+/*    elementy będą układać się w nowych liniach*/
 }
 
 input:focus,
