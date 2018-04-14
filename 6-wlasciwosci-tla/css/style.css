@@ -1,0 +1,7 @@
+#tlo-obrazek {
+    background-image: url("../img/empire.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
