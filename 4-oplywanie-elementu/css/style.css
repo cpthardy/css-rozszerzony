@@ -1,0 +1,15 @@
+img {
+    width: 230px;
+}
+
+#empire1 {
+    float: left;
+}
+
+#empire2 {
+    float: right;
+}
+
+p:last-child {
+    clear: right
+}
