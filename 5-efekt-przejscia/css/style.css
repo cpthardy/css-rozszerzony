@@ -1,0 +1,45 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+#colors {
+    background-color: yellow;
+    transition: background-color 3s linear 1s;
+}
+
+#colors:hover {
+    background-color: green;
+}
+
+#box1 {
+    background-color: blue;
+/*    transition: width 2s ease-in, height 2s ease-in;*/
+    transition: width 2s ease-out
+}
+
+#box1:hover {
+    width: 300px;
+    
+}
+#box2 {
+    background-color: orange;
+/*    transition: width 2s ease-in, height 2s ease-in;*/
+    transition: height 2s ease-in
+}
+
+#box2:hover {
+    height: 500px;
+}
+#box3 {
+    background-color: red;
+/*    transition: width 2s ease-in, height 2s ease-in;*/
+    transition: all 2s ease-in
+}
+
+#box3:hover {
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg)
+}
