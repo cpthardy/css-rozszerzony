@@ -11,5 +11,8 @@
     font-weight: bold;
 }
 #p4::selection {
-    border-color: yellow;
+    background-color: yellow;
+}
+#p7::first-line {
+    background-color: blue;
 }
