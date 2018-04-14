@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="https://formspree.io/m.wydrych@gmail.com" method="post">
+        <label for="first-name">Imię:</label><br>
+        <input type="text" name="Imię" id="first-name" required><br><br>
+
+        <label for="last-name">Nazwisko:</label><br>
+        <input type="text" name="Nazwisko" id="last-name" required><br><br>
+
+        <label for="email">Adres e-mail:</label><br>
+        <input type="email" name="E-mail" id="email" required><br><br>
+
+        <label for="phone">Telefon:</label><br>
+        <input type="text" name="Telefon" id="phone"><br><br>
+
+        <label for="city">Miasto:</label><br>
+        <select name="Miasto" id="city">
+                <option value="Kraków">Kraków</option>
+                <option value="Warszawa">Warszawa</option>
+                <option value="Gdańsk">Gdańsk</option>
+            </select><br>
+
+        <p>Płeć:</p>
+        <input type="radio" name="Płeć" value="Mężczyzna" id="man"><label for="man">Mężczyzna</label><br>
+        <input type="radio" name="Płeć" value="Kobieta" id="woman"><label for="woman">Kobieta</label><br>
+        <input type="radio" name="Płeć" value="Inna" id="other"><label for="other">Inna</label><br><br>
+
+        <label for="pd-agreement">Wyrażam zgodę na przetwarzanie twoich danych osobowych.</label>
+        <input type="checkbox" name="Zgoda" id="pd-agreement" required><br><br>
+
+        <label for="message">Wiadomość:</label><br>
+        <textarea name="Wiadomość" id="message" cols="30" rows="10" required></textarea><br><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+    background-color: #213850;
+    color: #fff;
+}
+
+input,
+textarea,
+select,
+option {
+    background-color: #2b4a64;
+    border: 1px solid #213850;
+    color: #fff;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+option:focus {
+    background-color: #4e708c;
+    outline: none;
+    /*    brak niebieskiej ramki */
+    border: 1px solid #fff;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 400px;
+    height: 25px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    width: 80px;
+    height: 40px;
+    /*    lub padding: 10px 20px;*/
+    background-color: #1ac056;
+    border: 1px solid #1ac056;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    float: left;
+}
