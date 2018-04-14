@@ -1,0 +1,23 @@
+[suma] {
+    /* lub div[suma] lub div.klient[suma]*/
+    background-color: aqua;
+}
+
+[suma="1500"] {
+    background-color: blue;
+}
+
+div[detaliczny ~ ="tak"] {
+    background-color: red;
+}
+
+div[detaliczny*="tak"] {
+    color: dodgerblue;
+}
+div[suma^="25"] {
+    color: yellow;
+}
+
+div[suma$="00"] {
+    color: orange;
+}
