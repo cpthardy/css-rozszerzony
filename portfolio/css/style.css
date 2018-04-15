@@ -108,3 +108,45 @@ a {
 
 /*HEADER - END*/
 
+/*ABOUT - START*/
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    box-shadow: 0 5px 10px #E7E7E7;
+}
+
+#about h2 {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+#about figure {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0;
+    
+}
+
+#about figure img {
+    max-height: 350px;
+    max-width: 100%
+    border: 10px solid #fff;
+    border-radius: 15px;
+
+}
+
+#about article {
+    width: 49%;
+    float: left;
+}
+
+/*ABOUT - END*/
+
+/*SKILLS - START*/
+
+#skills h2 {
+    text-align: center;
+    margin-top: 40px;
+/*SKILLS - END*/
