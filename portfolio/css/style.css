@@ -161,4 +161,19 @@ a {
 #skills figure {
     display: inline-block
 }
+
 /*SKILLS - END*/
+
+/*PORTFOLIO - START*/
+
+#portfolio-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#portfolio-container figure {
+    margin: 0;
+    display: inline-block;
+    max-width: 33%;
+}
+/*PORTFOLIO - END*/
