@@ -1,0 +1,50 @@
+img {
+    width: 25%;
+    display: block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#rotate {
+    transition: transform 2s linear
+    /*    transform: rotate(45deg);*/
+}
+
+#translate {
+    transition: transform 2s linear
+    /*    transform: translate(200px, 100px);*/
+}
+
+#scale {
+    transition: transform 2s linear
+    /*    transform: scale(1.5);*/
+}
+
+#rotate:hover {
+    transform: rotate(45deg);
+}
+
+#translate:hover {
+    transform: translate(200px, 100px);
+}
+
+#scale:hover {
+    transform: scale(1.5);
+}
+
+@keyframes animacja1 {
+    0% {
+        transform: rotate(0deg) scale(1)
+    }
+    50% {
+        transform: rotate(180deg) scale(2)
+    }
+}
+#animacja {
+    animation-name: animacja1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
